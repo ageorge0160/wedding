@@ -30,8 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  wedding_name: "Jack & Jill's Wedding"
-  wedding_couple_names: 'Jack & Jill'
-  wedding_date: 'Saturday, 1 January 2000'
-  wedding_location: 'South Pole'
-  photo_credits: 'Photo Credits: Pexels'
+  wedding_name: "Brett & Amanda's Wedding"
+  wedding_couple_names: 'Brett Larson & Amanda George'
+  wedding_date: '2021'
+  wedding_location: 'Saint Paul, MN'
+  photo_credits: 'Amanda George'

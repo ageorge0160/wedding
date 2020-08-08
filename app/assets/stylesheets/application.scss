@@ -13,18 +13,24 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-$font-family-sans-serif: Montserrat, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Raleway', sans-serif;;
 $font-family-serif: Arvo, Georgia, "Times New Roman", Times, serif;
+$font-family-script: "Rouge Script", cursive;
 
-$font-family-base: $font-family-serif;
-$headings-font-family: $font-family-sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-script;
 
 $body-color: rgba(28, 13, 10, 0.7);
-$headings-color: rgba(28, 13, 10, 0.7);
+$headings-color: rgba(85, 23, 30, 1);
 
 $theme-colors: (
-  "primary": #ff745c
+  "primary": #5b1e2a,
+  "coral": #e9b29d,
+  "cream": #f5f0e5,
+  "dark-green": #40564d,
 );
 
 $enable-rounded: false;
@@ -33,11 +39,14 @@ $enable-rounded: false;
 @import "guests";
 @import "welcome";
 
+body {
+  background-color: theme-color("cream");
+}
+
 h1 {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.0833333em;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -46,7 +55,6 @@ h2 {
   font-weight: 700;
   line-height: 1.5em;
   letter-spacing: 0.0833333em;
-  text-transform: uppercase;
 
   svg {
     fill: currentColor;

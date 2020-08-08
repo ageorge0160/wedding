@@ -2,14 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 #welcome-index-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
-    image-url("jumbo.jpg") center center no-repeat;
+    image-url("IMG_8646.jpg") center center no-repeat;
   background-size: cover;
   height: 820px;
 
   * {
-    color: rgba(255, 255, 255, 0.95);
+    color: theme-color('cream');
   }
 
   h1 {
@@ -20,7 +21,6 @@
     font-size: 17px;
     letter-spacing: 4px;
     padding: 12pt;
-    text-transform: uppercase;
   }
 }
 
@@ -32,12 +32,57 @@
 
 #welcome-index-venue-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
-    image-url("venue.jpg") center center no-repeat;
+    image-url("IMG_8538.jpg") center center no-repeat;
   background-size: cover;
   margin-top: 5 * $spacer;
 
   * {
-    color: rgba(255, 255, 255, 0.95);
+    color: theme-color('cream');
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
+
+#welcome-index-our-story-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    image-url("IMG_6781.jpg") center center no-repeat;
+  background-size: cover;
+  margin-top: 5 * $spacer;
+
+  * {
+    color: theme-color('cream');
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
+
+#welcome-index-registry-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    image-url("IMG_8136.jpg") center center no-repeat;
+  background-size: cover;
+  margin-top: 5 * $spacer;
+
+  * {
+    color: theme-color('cream');
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
+
+#welcome-index-photos-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    image-url("IMG_8638.jpg") center center no-repeat;
+  background-size: cover;
+  margin-top: 5 * $spacer;
+
+  * {
+    color: theme-color('cream');
   }
 
   h1 {
@@ -85,20 +130,26 @@
 }
 
 #welcome-index-footer {
-  background-color: #faebe3;
+  background-color: theme-color("dark-green");
   margin-top: 5 * $spacer;
 
   #welcome-index-footer-cta {
-    padding-top: 8 * $spacer;
-    padding-bottom: 3 * $spacer;
+    padding-top: 2 * $spacer;
+    padding-bottom: 2 * $spacer;
   }
 
   #welcome-index-footer-credits {
-    padding-top: 5 * $spacer;
-    padding-bottom: 3 * $spacer;
+    padding-top: 2 * $spacer;
+    padding-bottom: 2 * $spacer;
 
     small {
       color: rgba(28, 13, 10, 0.4);
     }
   }
+}
+
+.jumbotron-heading {
+  padding-top: 80px;
+  font-family: 'Rouge Script', cursive;
+  font-size: 5em;
 }
