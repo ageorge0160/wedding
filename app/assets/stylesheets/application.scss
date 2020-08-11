@@ -47,6 +47,8 @@ h1 {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.0833333em;
+  color: theme-color(cream);
+  padding: 1 * $spacer 0;
 }
 
 h2 {
@@ -55,12 +57,22 @@ h2 {
   font-weight: 700;
   line-height: 1.5em;
   letter-spacing: 0.0833333em;
+  padding-bottom: $spacer;
+  text-align: center;
 
   svg {
     fill: currentColor;
     margin: 0 auto;
     height: 100px;
   }
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .wedding-cta-btn {
@@ -70,4 +82,10 @@ h2 {
 
 .wedding-required {
   color: theme-color("primary");
+}
+
+.jumbotron-heading {
+  padding-top: 80px;
+  font-family: 'Rouge Script', cursive;
+  font-size: 5em;
 }
